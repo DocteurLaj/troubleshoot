@@ -4,6 +4,8 @@ l3= document.querySelector('.l3');
 lall = document.querySelector('.lAll');
 
 
+
+//..................ore.............................................
 l1.addEventListener("click", (event) =>{
     event.stopPropagation();
     l1.style.height = "150px";
@@ -31,4 +33,14 @@ document.body.addEventListener("click", () =>{
 
     l3.style.height = "auto";
     l3.children[1].classList.replace("fa-chevron-up", "fa-chevron-down");
+})//................................................
+
+
+//....................change div ajouter un cours....................
+let cours_select = document.querySelector('#btn_promotion_cours');
+
+
+cours_select.addEventListener('click', ()=>{
+    cours_select.a.style.background = 'red';
+
 })

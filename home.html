@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/css/home.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/sp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>TroubleShoot</title>
     <link rel="shortcut icon" href="/static/image/logo.png">
     <script defer src="/static/js/main.js"></script>
+    <script defer src="/static/js/import.js"></script>
 </head>
 <body>
     <header>
-        
-
         <div class="left">
             <div class="menu"><i class="fa fa-bars icon"></i></div>
             <div class="logo"> <img src="/static/image/logo.png" alt="" > TroubleShoot</div>
@@ -38,12 +38,13 @@
                 <button class="btnsp"><i class="fa fa-file-pdf"></i> cours</button>
                 <button class="btnsp"><i class="fa fa-message"></i> Quiz</button>
             </div>
-          
 
             <div class="recherche_resultat"><i class="fa fa-magnifying-glass"></i><input type="recherche" name="recheche_resultat" id="" placeholder="Taper pour une Recheche"></div>
         </div>
         <div class="affichage">
-            affichage
+            <div id="drop-zone">Glissez et déposez votre fichier ici</div>
+            <div id="message"></div>
+
         </div>
     </div>
     <div class="pub"></div>

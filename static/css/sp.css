@@ -1,0 +1,72 @@
+@import url(/static/css/home.css);
+
+.promotion_cours{
+    background: var(--color_div);
+    height: 75%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-size: 13px;
+    
+}
+
+
+.promotion_cours a{
+    padding:20px;
+    margin: 1em;
+    width: 85%;
+    text-align: center;
+    color: rgb(25, 99, 173);
+    border-radius: 5px;
+    border:1px solid var(--border)
+}
+
+.progresion{
+    display: flex;
+    margin-top: 1em;
+    
+}
+.progresion .progresion1, .progresion2, .progresion3{
+    border:2px solid var(--border);
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    margin: 0.5em;
+    
+
+}
+.promotion_cours a:hover{
+  background: var(--color_btnsp);
+  color: aliceblue;
+    
+
+}
+
+.progresion1{
+    background: rgba(99, 151, 175, 0.233);
+}
+
+
+#drop-zone {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    border: 2px dashed var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 1.2em;
+    margin: 20px auto;
+    
+}
+#drop-zone.hover {
+    border-color: #007bff;
+    background-color: #e6f2ff;
+}
+    

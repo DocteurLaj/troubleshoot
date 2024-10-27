@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+    
 
     --color_principal:linear-gradient(to right, #010308 0%, #010308 100%);
     --color_div:linear-gradient(to right, #161b22 0%, #161b22 100%) ;
@@ -38,6 +39,7 @@ header{
     width: 13%;
     margin-right: 10px;
     border-radius:5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    
 }
 
@@ -105,6 +107,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .header_resultat{
     width: 100%;
@@ -117,6 +120,9 @@ a{
     width: 80%;
     border: 1px solid  var(--border);
     height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .content_btnsp{
     display: flex;
@@ -169,4 +175,6 @@ input{
 .ore-grand{
 height: 550px;
 }
+
+
 
